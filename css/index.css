@@ -33,7 +33,11 @@ button {
   max-width: fit-content;
 }
 
-input {
+.sort__change__btn{
+  max-width: max-content;
+}
+
+input, select {
   margin: 5px 10px 5px 0;
   border: 0;
   padding: 0 10px;
@@ -45,6 +49,11 @@ input {
   background-color: #3cbc8d;
   color: white;
   max-width: 200px;
+}
+
+select {
+  height: 36px;
+  width: 176.8px;
 }
 
 main {
@@ -63,13 +72,14 @@ main {
 
 /* Панель управления */
 .panel__wrapper {
-  flex-basis: 25%;
+  flex-basis: 20%;
   max-height: inherit;
   overflow: hidden;
   background: aliceblue;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 10px;
 }
 
 .panel__devtools {
@@ -107,24 +117,28 @@ main {
   border-radius: 10px;
 }
 
+.fruit_red {
+  background: #dc143c;
+}
+
 .fruit_violet {
   background: #8b00ff;
 }
 
-.fruit_green {
-  background: #84cd1b;
+.fruit_orange {
+  background: orange;
 }
 
-.fruit_carmazin {
-  background: #dc143c;
+.fruit_green {
+  background: limegreen;
 }
 
 .fruit_yellow {
-  background: #ffd800;
+  background: gold;
 }
 
-.fruit_lightbrown {
-  background: #cd853f;
+.fruit_brown {
+  background: saddlebrown;
 }
 
 .fruit__info {
